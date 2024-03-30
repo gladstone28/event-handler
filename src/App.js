@@ -1,12 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-
+import Talker from './Talker';
 
 function App() {
-  return (
-    <div className="App">
-<h1>Gladdy</h1>
-    </div>
-  );
+  return <Talker />;
 }
 
 export default App;
